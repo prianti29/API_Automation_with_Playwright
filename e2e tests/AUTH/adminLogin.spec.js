@@ -10,4 +10,4 @@ test('Super Admin sign-in', async ({ request }) => {
     data: fixtureData.jsonData[0],
   });
   expect(response.status()).toBe(200);
-});
+}); 
